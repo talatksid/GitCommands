@@ -1,0 +1,17 @@
+git config --global user.name "Talat"
+git config --global user.email "blah@blah.com"
+
+
+git init demo  #demo is a repo name I chose
+
+cd demo
+
+#create any file
+
+vi Rough.txt
+
+git status # will show a new file Rough.txt that is in working
+
+git add Rough.txt # adds the file to Staging
+
+git commit # commits the file to git repo
