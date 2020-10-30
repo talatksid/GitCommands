@@ -22,3 +22,13 @@ git reset HEAD <filename> # unstage a file or remove latest version of file adde
 
 git checkout -- <filename> # checkout the last committed version from git repo and overwrite to working directory
 
+
+git log # shows the git commits with commit messahes
+
+git log --oneline --graph --decorate --all #log with options. Use git log help to find more option. 
+
+git show #lists commits along with file diffs
+
+git config --global alias.hist "log --oneline --graph --decorate --all" #creates a alias hist for the log command listed above.
+
+git comfig --global --list #list all congifs set so far
