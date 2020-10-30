@@ -32,3 +32,5 @@ git show #lists commits along with file diffs
 git config --global alias.hist "log --oneline --graph --decorate --all" #creates a alias hist for the log command listed above.
 
 git comfig --global --list #list all congifs set so far
+
+git mv <oldfilename> <newfilename> # renames the file in working and staging area. the new named file would have to be re-committed
