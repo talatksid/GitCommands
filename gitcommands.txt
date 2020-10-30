@@ -17,3 +17,8 @@ git add . #will add all files in the folder to staging
 git add Rough.txt # adds the file to Staging
 
 git commit # commits the file to git repo
+
+git reset HEAD <filename> # unstage a file or remove latest version of file added to stage
+
+git checkout -- <filename> # checkout the last committed version from git repo and overwrite to working directory
+
