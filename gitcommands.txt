@@ -14,6 +14,10 @@ git status # will show a new file Rough.txt that is in working
 
 git add . #will add all files in the folder to staging
 
+git add -u #updates any files deleted on the OS outside the git repo
+
+git add -A # updates all modifications done outside the repo like renames or deletes or additional files
+
 git add Rough.txt # adds the file to Staging
 
 git commit # commits the file to git repo
@@ -33,4 +37,8 @@ git config --global alias.hist "log --oneline --graph --decorate --all" #creates
 
 git comfig --global --list #list all congifs set so far
 
-git mv <oldfilename> <newfilename> # renames the file in working and staging area. the new named file would have to be re-committed
+git mv <oldfilename> <newfilename> # renames the file in working and staging area. the new named file would have to be re-committed. This does not retain the older file anywhwere.
+
+git rm <filename> # remove the file from working dir and staging. removes from repo after a git commit
+
+#create a .gitignore file (name = .gitignore); add specific file name or wildcard file expressions to tell git the files that are to be ignored for every commit. Add and commit the .gitignore file 
