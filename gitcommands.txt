@@ -12,6 +12,8 @@ vi Rough.txt
 
 git status # will show a new file Rough.txt that is in working
 
+git add . #will add all files in the folder to staging
+
 git add Rough.txt # adds the file to Staging
 
 git commit # commits the file to git repo
