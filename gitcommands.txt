@@ -48,3 +48,18 @@ git checkout -b <name of the branc> #create a new branch and switch to it
 git checkout <branch name> #switch to existing branch
 
 git merge <branch name to be merged to current branch>
+
+git branch -d <name of the branch to be deleted>
+
+#conflict occurs when same file is changed at the exact same location or line on two different branches and then a merge is attempted. Resolve conflict and commit to the current branch. git will keep the conflicted file as filename.orig. Add it to .gitingnore and/or remove the *.orig files
+
+git tag <tagename> #creates light weight tags
+git tag -d <tagname> # delete the tag
+
+git tag -a <tagname> -m "Commit message" #annotdated tags
+
+git tag --list #list all tags
+git show <tagname> #show all the information associated with the tagged commit
+
+
+
