@@ -43,4 +43,6 @@ git rm <filename> # remove the file from working dir and staging. removes from r
 
 #create a .gitignore file (name = .gitignore); add specific file name or wildcard file expressions to tell git the files that are to be ignored for every commit. Add and commit the .gitignore file 
 
-git checkout -b <name of the branc> #create a new branch
+git checkout -b <name of the branc> #create a new branch and switch to it
+
+git checkout <branch name> #switch to existing branch
