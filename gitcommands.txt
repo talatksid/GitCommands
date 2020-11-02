@@ -1,6 +1,6 @@
 git config --global user.name "Talat"
 git config --global user.email "blah@blah.com"
-
+git help <command>
 
 git init demo  #demo is a repo name I chose
 
@@ -42,3 +42,5 @@ git mv <oldfilename> <newfilename> # renames the file in working and staging are
 git rm <filename> # remove the file from working dir and staging. removes from repo after a git commit
 
 #create a .gitignore file (name = .gitignore); add specific file name or wildcard file expressions to tell git the files that are to be ignored for every commit. Add and commit the .gitignore file 
+
+git checkout -b <name of the branc> #create a new branch
