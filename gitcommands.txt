@@ -67,4 +67,4 @@ git stash #seperates the most recent changes to a Work In Progress and enables o
 git stash list # lists all stashed changes
 git stash pop #merges the changes back to the head. Have to commit after this.
 
-
+git stash pop <stash#> #each stash is given a number. to do a selective stash pop
