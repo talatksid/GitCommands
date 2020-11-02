@@ -46,3 +46,5 @@ git rm <filename> # remove the file from working dir and staging. removes from r
 git checkout -b <name of the branc> #create a new branch and switch to it
 
 git checkout <branch name> #switch to existing branch
+
+git merge <branch name to be merged to current branch>
