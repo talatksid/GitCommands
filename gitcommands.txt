@@ -68,3 +68,21 @@ git stash list # lists all stashed changes
 git stash pop #merges the changes back to the head. Have to commit after this.
 
 git stash pop <stash#> #each stash is given a number. to do a selective stash pop
+
+git reset <commit_id> --soft #for soft reset of HEAD back to any prior commit changes in working and staging preserved. --mixed (default) changes preserved in staging, and --hard wipes clean all changes done after the commit_id reset to. 
+
+git reflog --onleline #get logs along with the actions like commit, reset etc. 
+
+
+
+#GITHUB:
+#########
+
+#Step 1: create a profile in Git Hub. Create a repositoy in the GitHub Profile. 
+
+#Step 2: On terminal inside the local git repository folder, add a remote GitHub repository with a refernce name. "origin" is conventionally used first reference name
+
+git remote add <reference_name> <url to the remote github profile>
+
+
+git push -u <remoterepository reference name> <local branch name> --tags   #push to remote repo, -u enables tracking. --tags pushes the branch with the tags. 
